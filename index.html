@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turning a Year Into a Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+    <nav class="top-nav">
+        <div class="nav-content">
+            <div class="nav-logo">Dashboard</div>
+            <div class="nav-meta">2025</div>
+        </div>
+    </nav>
+
+    <!-- Dashboard Main Content -->
+    <main class="dashboard-main">
+        <div class="dashboard-container">
+            <!-- Header Section -->
+            <header class="dashboard-header">
+                <div class="header-left">
+                    <h1 class="dashboard-title" id="hero-title"></h1>
+                    <p class="dashboard-subtitle" id="hero-subtitle"></p>
+                </div>
+                <div class="header-right">
+                    <span class="header-pill" id="hero-pill"></span>
+                    <p class="header-updated" id="hero-updated"></p>
+                </div>
+            </header>
+
+            <!-- KPI Cards Row -->
+            <section class="dashboard-section kpi-section">
+                <div class="kpi-grid" id="kpis"></div>
+            </section>
+
+            <!-- Main Dashboard Grid -->
+            <div class="dashboard-grid">
+                <!-- Left Column -->
+                <div class="dashboard-column">
+                    <!-- Skills Section -->
+                    <section class="dashboard-card skills-card">
+                        <h3 class="card-title">Skills & Tech Stack</h3>
+                        <div class="skills-visualization" id="skills"></div>
+                    </section>
+
+                    <!-- Events & Conferences -->
+                    <section class="dashboard-card events-card">
+                        <h3 class="card-title">Events & Conferences</h3>
+                        <div class="events-list" id="events"></div>
+                    </section>
+                </div>
+
+                <!-- Right Column -->
+                <div class="dashboard-column">
+                    <!-- Timeline Section -->
+                    <section class="dashboard-card timeline-card">
+                        <h3 class="card-title">Year Timeline</h3>
+                        <div class="timeline-items-compact" id="timeline"></div>
+                    </section>
+
+                    <!-- Career Readiness -->
+                    <section class="dashboard-card career-card">
+                        <h3 class="card-title">Career Readiness</h3>
+                        <div class="career-info" id="career-readiness"></div>
+                    </section>
+                </div>
+            </div>
+
+            <!-- Looking Ahead - Horizontal Section -->
+            <section class="dashboard-section goals-section">
+                <h3 class="section-title-horizontal">Looking Ahead</h3>
+                <div class="goals-horizontal" id="goals"></div>
+            </section>
+        </div>
+    </main>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
