@@ -108,11 +108,12 @@ const YEAR_DATA = {
   ],
   skills: [
     { name: "Python & Data", level: 90 },
-    { name: "Automation / RPA", level: 85 },
-    { name: "AWS / Cloud", level: 75 },
     { name: "Dashboards & Visualization", level: 88 },
+    { name: "Automation / RPA", level: 85 },
     { name: "UI/UX & Product Thinking", level: 80 },
     { name: "Business Analytics and Intelligence", level: 85 },
+    { name: "AWS / Cloud", level: 75 },
+
   ],
   events: [
     {
@@ -172,7 +173,7 @@ const YEAR_DATA = {
   ],
   careerReadiness: {
     focus: "Data & Product Roles",
-    interests: ["Data Science", "Product Analytics", "Business Intelligence", "Automation"],
+    interests: ["Data Science", "Product Analytics", "Business Intelligence", "Automation", "Human Computer Interaction"],
     awards: [
       {
         title: "Community Impact Award",
